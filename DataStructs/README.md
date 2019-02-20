@@ -1,6 +1,6 @@
 # Python
 
-      Practice problems, learning python as I go 
+      Going OVer Data Structures to grasp futher understanding 
       
 ## Environment
       Python 3.7 as of 2/19/19 
