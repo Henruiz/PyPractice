@@ -16,7 +16,7 @@
 
 def first_recurring_item(input):
     for i in input:
-        for (j + ( i +1)) in input:
+        for  j in input:
             if input[i] == input[j]:
                 return(input[i])
 
@@ -63,3 +63,4 @@ ans3 = first_recurring_item_2(['2', '3', '4', '5'])
 print(ans3)
 
 print('-----------------------------------------------')
+
