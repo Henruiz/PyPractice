@@ -15,8 +15,8 @@
 
 
 def first_recurring_item(input):
-    for i in input:
-        for  j in input:
+    for i in range(0, len(input)):
+        for j in range(0, len(input)):
             if input[i] == input[j]:
                 return(input[i])
 
