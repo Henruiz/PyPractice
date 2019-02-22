@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="482f5357-9361-45d8-9c84-289eac3bbbb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructs/Fibinacci_Seq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice_Problems/Testing_Modular" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructs/Fibinacci_Seq.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_Problems/Fibinacci_Seq.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,25 +18,35 @@
     <SUITE FILE_PATH="coverage/PyPracice$Array_1.coverage" NAME="Array.1 Coverage Results" MODIFIED="1550638378208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructs" />
     <SUITE FILE_PATH="coverage/PyPracice$Array_Practice1.coverage" NAME="Array_Practice1 Coverage Results" MODIFIED="1550638382829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructs" />
     <SUITE FILE_PATH="coverage/PyPracice$Array_MergeSort_Practice.coverage" NAME="Array_MergeSort_Practice Coverage Results" MODIFIED="1550638380589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructs" />
-    <SUITE FILE_PATH="coverage/PyPractice$Fibinacci_Seq.coverage" NAME="Fibinacci_Seq Coverage Results" MODIFIED="1550815635466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructs" />
+    <SUITE FILE_PATH="coverage/PyPractice$Fibinacci_Seq.coverage" NAME="Fibinacci_Seq Coverage Results" MODIFIED="1550816195022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructs" />
     <SUITE FILE_PATH="coverage/PyPracice$Hash_Table_Func_Prac.coverage" NAME="Hash_Table_Func_Prac Coverage Results" MODIFIED="1550788035769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructs" />
+    <SUITE FILE_PATH="coverage/PyPractice$Testing_Modular.coverage" NAME="Testing_Modular Coverage Results" MODIFIED="1550817430550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice_Problems" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataStructs/Hash_Table_Func_Prac.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
+            <state relative-caret-position="255">
               <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DataStructs/Fibinacci_Seq.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Practice_Problems/Fibinacci_Seq.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-start-column="2" selection-end-column="6" />
+            <state relative-caret-position="180">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Practice_Problems/Testing_Modular">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -57,11 +68,12 @@
       <list>
         <option value="$PROJECT_DIR$/DataStructs/Hash_Table_Func_Prac.py" />
         <option value="$PROJECT_DIR$/DataStructs/Fibinacci_Seq.py" />
+        <option value="$PROJECT_DIR$/Practice_Problems/Testing_Modular" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="312" />
+    <option name="x" value="171" />
     <option name="y" value="23" />
     <option name="width" value="974" />
     <option name="height" value="828" />
@@ -72,22 +84,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="PyPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PyPractice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PyPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PyPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="DataStructs" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -95,6 +92,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Practice_Problems" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -108,29 +110,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Fibinacci_Seq">
-    <configuration name="Array_Practice1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PyPracice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataStructs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructs/Array_Practice1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Testing_Modular">
     <configuration name="Fibinacci_Seq" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyPractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,7 +124,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructs/Fibinacci_Seq.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Problems/Fibinacci_Seq.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,6 +177,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Testing_Modular" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PyPractice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Problems/Testing_Modular" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Tweeter_Example" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyPracice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Testing_Modular" />
         <item itemvalue="Python.Fibinacci_Seq" />
         <item itemvalue="Python.Hash_Table_Func_Prac" />
         <item itemvalue="Python.Tweeter_Example" />
         <item itemvalue="Python.Hash_Table_Exercise" />
-        <item itemvalue="Python.Array_Practice1" />
       </list>
     </recent_temporary>
   </component>
@@ -241,23 +243,23 @@
       <updated>1550638371072</updated>
       <workItem from="1550638372272" duration="41000" />
       <workItem from="1550787985613" duration="464000" />
-      <workItem from="1550815120396" duration="553000" />
+      <workItem from="1550815120396" duration="633000" />
+      <workItem from="1550816109092" duration="1139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1058000" />
+    <option name="totallyTimeSpent" value="2277000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="312" y="23" width="974" height="828" extended-state="0" />
-    <editor active="true" />
+    <frame x="171" y="23" width="974" height="828" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25965664" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26502147" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32608697" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32608697" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -266,7 +268,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33152175" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.33152175" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -284,15 +286,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DataStructs/Hash_Table_Func_Prac.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
+        <state relative-caret-position="255">
           <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructs/Fibinacci_Seq.py">
+    <entry file="file://$PROJECT_DIR$/Practice_Problems/Fibinacci_Seq.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-start-column="2" selection-end-column="6" />
+        <state relative-caret-position="180">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practice_Problems/Testing_Modular">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,5 @@
 # try:
-    user_input = int(input("Please enter a number from 1-100: "))
+user_input = int(input("Please enter a number from 1-100: "))
 # except:
 #     if user_input is not int:
 #         print('Sorry wrong input try again')
