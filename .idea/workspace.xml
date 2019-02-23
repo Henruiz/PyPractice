@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="482f5357-9361-45d8-9c84-289eac3bbbb1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PyPractice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Practice_Problems/Fibinacci_Seq.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_Problems/Fibinacci_Seq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Problems/Testing_Modular" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_Problems/test_modular.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +28,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DataStructs/Hash_Table_Func_Prac.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -32,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Practice_Problems/Fibinacci_Seq.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -42,10 +47,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Practice_Problems/Testing_Modular">
+        <entry file="file://$PROJECT_DIR$/DataStructs/Linked_List_Practice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -73,37 +78,38 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="149" />
     <option name="y" value="23" />
     <option name="width" value="898" />
     <option name="height" value="828" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="PyPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PyPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="PyPractice" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
-              <item name="PyPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PyPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="DataStructs" type="462c0819:PsiDirectoryNode" />
+              <item name="PyPractice" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="DataStructs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="PyPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PyPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="Practice_Problems" type="462c0819:PsiDirectoryNode" />
+              <item name="PyPractice" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="Practice_Problems" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,16 +271,18 @@
       <workItem from="1550815120396" duration="633000" />
       <workItem from="1550816109092" duration="1182000" />
       <workItem from="1550858174994" duration="895000" />
+      <workItem from="1550906476671" duration="36000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3215000" />
+    <option name="totallyTimeSpent" value="3251000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="898" height="828" extended-state="0" />
+    <frame x="149" y="23" width="898" height="828" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2406542" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24649532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -304,24 +312,25 @@
     <entry file="file://$PROJECT_DIR$/DataStructs/Array.1.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructs/Hash_Table_Func_Prac.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practice_Problems/Testing_Modular">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Practice_Problems/Testing_Modular" />
     <entry file="file://$PROJECT_DIR$/Practice_Problems/Fibinacci_Seq.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructs/Linked_List_Practice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructs/Hash_Table_Func_Prac.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
         </state>
       </provider>
     </entry>
