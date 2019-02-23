@@ -6,15 +6,20 @@ def fibinacci(num1, num2, counter):
     if (num1 > num2):
         return 1
 
-    if counter > user_input:
+    if counter > int(user_input):
         return ("Finished")
 
     print(num1)
 
     return fibinacci(num2, num1+num2, counter)
 
+try:
+    user_input = input("Please enter a number from 1-100: ")
+except TypeError:
+    print("This is a type error make sure you type an interger")
 
-user_input = int(input("Please enter a number from 1-100: "))
+
+
 num1 = 0
 num2 = 1
 
