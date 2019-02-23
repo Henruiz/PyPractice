@@ -1,31 +1,173 @@
+# class Node:
+#     def __init__(self, data=None):
+#         self.data = data
+#         self.next = None
+#
+#
+# class SingleLinkedList:
+#     def __init__(self):
+#         self.head = None
+#
+#     def insert(self, prev_node, input):
+#         if (self.head is None):
+#             return
+#
+#         NewNode = Node(input)
+#         NewNode.next = prev_node.next
+#         prev_node.next = NewNode
+#
+#     # Function to add a node to the front
+#     def front(self, input):
+#         NewNode = Node(input)
+#         NewNode.next = self.head
+#         self.head = NewNode
+#
+#     # Function to add a node in the midde
+#     def middle(self, middle_node, newdata):
+#         if middle_node is None:
+#             print("The mentioned node is absent")
+#             return
+#
+#         NewNode = Node(newdata)
+#         NewNode.next = middle_node.next
+#         middle_node.next = NewNode
+#
+#     # Function to remove node
+#     def RemoveNode(self, input):
+#
+#         head_value = self.head
+#
+#         if head_value is not None:
+#             if head_value.data == input:
+#                 self.head = head_value.next
+#                 HeadVal = None
+#                 return
+#
+#         while head_value is not None:
+#             if head_value.data == input:
+#                 break
+#             prev = head_value
+#             head_value = head_value.next
+#
+#         if head_value == None:
+#             return
+#
+#         prev.next = head_value.next
+#
+#         HeadVal = None
+#
+#     def LListprint(self):
+#         printval = self.head
+#         while printval:
+#             print(printval.data),
+#             printval = printval.next
+#
+#
+# llist = SingleLinkedList()
+# llist.insert(llist.head, "Weekday")
+# llist.front("Mon")
+# llist.front("Tue")
+# llist.front("Wed")
+# llist.front("Thu")
+# llist.front("Fri")
+# llist.RemoveNode("Tue")
+# llist.insert(llist.head, "Weekend")
+# llist.LListprint()
+# print('---------------------')
+# llist.middle(llist.head.next, "middle")
+# llist.LListprint()
+
+# A complete working Python program to demonstrate all
+# insertion methods of linked list
+
+# Node class
 class Node:
-    def __init__(self, data=None):
-        self.data = data
-        self.next = None
+
+    # Function to initialise the node object
+    def __init__(self, data):
+        self.data = data  # Assign data
+        self.next = None  # Initialize next as null
 
 
-class SingleLinkedList:
+# Linked List class contains a Node object
+class LinkedList:
+
+    # Function to initialize head
     def __init__(self):
         self.head = None
 
-    # Function to add a node to the front
-    def front(self, input):
-        NewNode = Node(input)
-        NewNode.next = self.head
-        self.head = NewNode
+    # Function to insert a new node at the beginning
+    def insertFront(self, new_data):
 
-    # Function to add a node in the midde
-    def middle(self, middle_node, newdata):
-        if middle_node is None:
-            print("The mentioned node is absent")
+        # 1 & 2: Allocate the Node &
+        #        Put in the data
+        new_node = Node(new_data)
+
+        # 3. Make next of new Node as head
+        new_node.next = self.head
+
+        # 4. Move the head to point to new Node
+        self.head = new_node
+
+        # This function is in LinkedList class. Inserts a
+
+    # new node after the given prev_node. This method is
+    # defined inside LinkedList class shown above */
+    def insertAfter(self, prev_node, new_data):
+
+        # 1. check if the given prev_node exists
+        if prev_node is None:
+            print
+            "The given previous node must inLinkedList."
             return
 
-        NewNode = Node(newdata)
-        NewNode.next = middle_node.next
-        middle_node.next = NewNode
+        #  2. create new node &
+        #      Put in the data
+        new_node = Node(new_data)
 
-    # Function to remove node
-    def RemoveNode(self, input):
+        # 4. Make next of new Node as next of prev_node
+        new_node.next = prev_node.next
+
+        # 5. make next of prev_node as new_node
+        prev_node.next = new_node
+
+        # This function is defined in Linked List class
+
+    # Appends a new node at the end.  This method is
+    # defined inside LinkedList class shown above */
+    def insertEnd(self, new_data):
+
+        # 1. Create a new node
+        # 2. Put in the data
+        # 3. Set next as None
+        new_node = Node(new_data)
+
+        # 4. If the Linked List is empty, then make the
+        #    new node as head
+        if self.head is None:
+            self.head = new_node
+            return
+
+        # 5. Else traverse till the last node
+        last = self.head
+        while(last.next):
+            last = last.next
+
+        # 6. Change the next of last node
+        last.next = new_node
+
+    # Function to add a node in the midde
+    def insertMiddle(self, middle_node, newdata):
+            if middle_node is None:
+                print("The mentioned node is absent")
+                return
+
+            NewNode = Node(newdata)
+            NewNode.next = middle_node.next
+            middle_node.next = NewNode
+
+        # Function to remove node
+    def removeNode(self, input):
 
         head_value = self.head
 
@@ -48,21 +190,33 @@ class SingleLinkedList:
 
         HeadVal = None
 
-    def LListprint(self):
-        printval = self.head
-        while printval:
-            print(printval.data),
-            printval = printval.next
+    def printList(self):
+        temp = self.head
+        while(temp):
+            print(temp.data)
+            temp = temp.next
 
 
-llist = SingleLinkedList()
-llist.front("Mon")
-llist.front("Tue")
-llist.front("Wed")
-llist.front("Thu")
-llist.front("Fri")
-llist.RemoveNode("Tue")
-llist.LListprint()
-print('---------------------')
-llist.middle(llist.head.next, "middle")
-llist.LListprint()
+# Start with the empty list
+llist = LinkedList()
+
+# Insert 6.  So linked list becomes 6->None
+llist.insertFront(6)
+
+# Insert 7 at the beginning. So linked list becomes 7->6->None
+llist.insertFront(7)
+
+# Insert 1 at the beginning. So linked list becomes 1->7->6->None
+llist.insertFront(1)
+
+# Insert 4 at the end. So linked list becomes 1->7->6->4->None
+llist.insertEnd(4)
+
+# Insert 8, after 7. So linked list becomes 1 -> 7-> 8-> 6-> 4-> None
+llist.insertAfter(llist.head.next, 8)
+
+# Insert 9, after 7. So linked list becomes 1-> 7-> middle-> 8-> 4->
+llist.insertMiddle(llist.head.next, 'middle')
+
+print('Created linked list is:',)
+llist.printList()
