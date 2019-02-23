@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="482f5357-9361-45d8-9c84-289eac3bbbb1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/PyPractice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice_Problems/Fibinacci_Seq.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_Problems/Fibinacci_Seq.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice_Problems/Testing_Modular" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_Problems/test_modular.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructs/Hash_Table_Exercise_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructs/Tweeter_Ex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructs/Hash_Table_Exercise" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructs/Tweeter_Example" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,40 +15,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PyPracice$Hash_Table_Exercise.coverage" NAME="Hash_Table_Exercise Coverage Results" MODIFIED="1550638386474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructs" />
+    <SUITE FILE_PATH="coverage/PyPractice$Array_Practice1.coverage" NAME="Array_Practice1 Coverage Results" MODIFIED="1550906878539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructs" />
+    <SUITE FILE_PATH="coverage/PyPractice$Hash_Table_Exercise_.coverage" NAME="Hash_Table_Exercise_ Coverage Results" MODIFIED="1550906993720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructs" />
     <SUITE FILE_PATH="coverage/PyPracice$Tweeter_Example.coverage" NAME="Tweeter_Example Coverage Results" MODIFIED="1550788020180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructs" />
-    <SUITE FILE_PATH="coverage/PyPracice$Array_1.coverage" NAME="Array.1 Coverage Results" MODIFIED="1550638378208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructs" />
-    <SUITE FILE_PATH="coverage/PyPracice$Array_Practice1.coverage" NAME="Array_Practice1 Coverage Results" MODIFIED="1550638382829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructs" />
-    <SUITE FILE_PATH="coverage/PyPracice$Array_MergeSort_Practice.coverage" NAME="Array_MergeSort_Practice Coverage Results" MODIFIED="1550638380589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructs" />
+    <SUITE FILE_PATH="coverage/PyPractice$Array_MergeSort_Practice.coverage" NAME="Array_MergeSort_Practice Coverage Results" MODIFIED="1550906868150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructs" />
     <SUITE FILE_PATH="coverage/PyPractice$Fibinacci_Seq.coverage" NAME="Fibinacci_Seq Coverage Results" MODIFIED="1550859066854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructs" />
     <SUITE FILE_PATH="coverage/PyPracice$Hash_Table_Func_Prac.coverage" NAME="Hash_Table_Func_Prac Coverage Results" MODIFIED="1550788035769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructs" />
     <SUITE FILE_PATH="coverage/PyPractice$Testing_Modular.coverage" NAME="Testing_Modular Coverage Results" MODIFIED="1550858302113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice_Problems" />
+    <SUITE FILE_PATH="coverage/PyPractice$Hash_Table_Func_Prac.coverage" NAME="Hash_Table_Func_Prac Coverage Results" MODIFIED="1550907001052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructs" />
+    <SUITE FILE_PATH="coverage/PyPractice$Linked_List_Practice.coverage" NAME="Linked_List_Practice Coverage Results" MODIFIED="1550907042788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructs" />
+    <SUITE FILE_PATH="coverage/PyPracice$Hash_Table_Exercise.coverage" NAME="Hash_Table_Exercise Coverage Results" MODIFIED="1550638386474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructs" />
+    <SUITE FILE_PATH="coverage/PyPractice$Array_1.coverage" NAME="Array.1 Coverage Results" MODIFIED="1550906857894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructs" />
+    <SUITE FILE_PATH="coverage/PyPracice$Array_1.coverage" NAME="Array.1 Coverage Results" MODIFIED="1550638378208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructs" />
+    <SUITE FILE_PATH="coverage/PyPracice$Array_Practice1.coverage" NAME="Array_Practice1 Coverage Results" MODIFIED="1550638382829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructs" />
+    <SUITE FILE_PATH="coverage/PyPracice$Array_MergeSort_Practice.coverage" NAME="Array_MergeSort_Practice Coverage Results" MODIFIED="1550638380589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructs" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DataStructs/Hash_Table_Func_Prac.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Practice_Problems/Fibinacci_Seq.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataStructs/Linked_List_Practice.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DataStructs/Tweeter_Ex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -74,6 +65,8 @@
         <option value="$PROJECT_DIR$/DataStructs/Fibinacci_Seq.py" />
         <option value="$PROJECT_DIR$/Practice_Problems/Testing_Modular" />
         <option value="$PROJECT_DIR$/Practice_Problems/Fibinacci_Seq.py" />
+        <option value="$PROJECT_DIR$/DataStructs/Hash_Table_Exercise_.py" />
+        <option value="$PROJECT_DIR$/DataStructs/Tweeter_Ex.py" />
       </list>
     </option>
   </component>
@@ -88,6 +81,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -109,7 +103,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,21 +128,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Fibinacci_Seq">
-    <configuration name="Fibinacci_Seq" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PyPractice" />
+  <component name="RunManager" selected="Python.Linked_List_Practice">
+    <configuration name="Array_MergeSort_Practice" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataStructs" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Problems/Fibinacci_Seq.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructs/Array_MergeSort_Practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,20 +151,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Hash_Table_Exercise" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PyPracice" />
+    <configuration name="Array_Practice1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataStructs" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructs/Hash_Table_Exercise" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructs/Array_Practice1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Hash_Table_Exercise_" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataStructs" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructs/Hash_Table_Exercise_.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,17 +196,17 @@
       <method v="2" />
     </configuration>
     <configuration name="Hash_Table_Func_Prac" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PyPracice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataStructs" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructs/Hash_Table_Func_Prac.py" />
       <option name="PARAMETERS" value="" />
@@ -202,42 +217,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Testing_Modular" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PyPractice" />
+    <configuration name="Linked_List_Practice" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Problems" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Problems/Testing_Modular" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Tweeter_Example" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PyPracice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataStructs" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructs/Tweeter_Example" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructs/Linked_List_Practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,13 +239,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.Array_MergeSort_Practice" />
+      <item itemvalue="Python.Array_Practice1" />
+      <item itemvalue="Python.Hash_Table_Exercise_" />
+      <item itemvalue="Python.Hash_Table_Func_Prac" />
+      <item itemvalue="Python.Linked_List_Practice" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Fibinacci_Seq" />
-        <item itemvalue="Python.Testing_Modular" />
+        <item itemvalue="Python.Linked_List_Practice" />
         <item itemvalue="Python.Hash_Table_Func_Prac" />
-        <item itemvalue="Python.Tweeter_Example" />
-        <item itemvalue="Python.Hash_Table_Exercise" />
+        <item itemvalue="Python.Hash_Table_Exercise_" />
+        <item itemvalue="Python.Array_Practice1" />
+        <item itemvalue="Python.Array_MergeSort_Practice" />
       </list>
     </recent_temporary>
   </component>
@@ -272,22 +272,22 @@
       <workItem from="1550816109092" duration="1182000" />
       <workItem from="1550858174994" duration="895000" />
       <workItem from="1550906476671" duration="36000" />
+      <workItem from="1550906819914" duration="274000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3251000" />
+    <option name="totallyTimeSpent" value="3525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="149" y="23" width="898" height="828" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24649532" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25233644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32608697" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32608697" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -320,17 +320,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructs/Linked_List_Practice.py">
+    <entry file="file://$PROJECT_DIR$/DataStructs/Hash_Table_Func_Prac.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructs/Hash_Table_Func_Prac.py">
+    <entry file="file://$PROJECT_DIR$/DataStructs/Hash_Table_Exercise">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="135">
+          <caret line="9" column="39" selection-end-line="74" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructs/Hash_Table_Exercise_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructs/Linked_List_Practice.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructs/Tweeter_Example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructs/Tweeter_Ex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
