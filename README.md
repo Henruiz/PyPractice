@@ -18,6 +18,8 @@ The programs consist using  several libraries such as:
     - jupyter
     - pandas
     - numpy
+    - folium
+    - openCV
     - tkinter 
     - pygame 
     NOTE: all of these were used with the latest versions as of 08/14/2019
