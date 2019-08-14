@@ -64,3 +64,5 @@ typings/
 /nbproject/private/
 \.idea/
 \out
+\venv
+\env
