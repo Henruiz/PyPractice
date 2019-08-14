@@ -22,7 +22,7 @@ def translate(word):
     # In case they typed in a weird word by mistake and the return value is not empty
     elif len(get_close_matches(word, data.keys())) > 0:
         user_input = input("Did you mean %s instead? \n Enter Y if yes or N if no: " % get_close_matches(word, data.keys())[0])
-        # User choice if they meant a different word or not 
+        # User choice if they meant a different word or not
         if user_input == "Y" :
             return data[get_close_matches(word, data.keys)[0]]
         elif user_input == "N":
