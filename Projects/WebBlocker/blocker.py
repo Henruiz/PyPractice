@@ -38,4 +38,4 @@ while True:
         print("Wooohooo Fun times are some good Times. ")
     time.sleep(60)  # checking time every min
 
-    # TODO implement scheduling this python script in my Linux/Mac Machine 
+    # TODO implement scheduling this python script in my Linux/Mac Machine
