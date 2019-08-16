@@ -22,5 +22,21 @@
         - Build a custom local web blocker for when working so i would not get distracted
         - Libraries used was time and datetime 
         - Modifies /etc/hosts file in Linux/MacOs 
+        
+    *** Coming Soon ***    
+    Databases 
+        - Building scripts to get familiarized with MySQL and PostgreSQL
+    
+    Desktop LibraryBooks App
+        - Building a full-stack stand-alone desktop app that simulates a Library inventory
+        - This was created to put Tkinter, Databases, OOP, Bacis Python and other libraries 
+            preivous knowledge together in one program. 
+     
+    Webcam Motion Detection
+        - Building a webcam motion detector using OpenCV
+        - Libraries used is cv2
+        - This is to get more indepth knowledge on how to utilize Object Detection Software
+        
+    TBA More Project comming soo but for now the 3 above are being researched. 
     
     
