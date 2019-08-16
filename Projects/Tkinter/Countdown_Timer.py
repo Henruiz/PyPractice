@@ -35,7 +35,7 @@ endTime = datetime.datetime(2019, 12, 17, 0, 0)
 # settings for clock time
 fnt = font.Font(family="Courier", size=28, weight="bold")
 txt = StringVar()
-lbl = ttk.Label(countdown_window, textvariable=txt, font=fnt, foreground="white", background="black")
+lbl = ttk.Label(countdown_window, textvariable=txt, font=fnt, foreground="blue", background="black")
 lbl.place(relx=0.5, rely=0.5, anchor=CENTER)
 
 countdown_window.mainloop()

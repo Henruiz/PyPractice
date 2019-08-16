@@ -27,7 +27,7 @@ clock_window.after(1000, clock_time)
 # settings for clock time
 fnt = font.Font(family="Courier", size=28, weight="bold")
 txt = StringVar()
-lbl = ttk.Label(clock_window, textvariable=txt, font=fnt, foreground="white", background="black")
+lbl = ttk.Label(clock_window, textvariable=txt, font=fnt, foreground="red", background="black")
 lbl.place(relx=0.5, rely=0.5, anchor=CENTER)
 
 clock_window.mainloop()
