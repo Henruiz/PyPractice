@@ -26,7 +26,6 @@ The programs consist using  several libraries such as:
 
 These programs will range in complexity and types. 
     - Webmap
-    - Webpage
     - GUI
     - Databases
     - Object Detection 
