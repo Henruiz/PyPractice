@@ -42,9 +42,17 @@
         - Libraries used is cv2
         - This is to get more indepth knowledge on how to utilize Object Detection Software
 First take using OpenCV library 
+Gray Scale 
 <img width="1269" alt="Screen Shot 2019-08-18 at 3 49 44 PM" src="https://user-images.githubusercontent.com/28213504/63230290-3d75cf00-c1d0-11e9-9cc9-2636b1ed8176.png">
+Gray Delta Frame Scale
+<img width="1265" alt="Screen Shot 2019-08-18 at 4 16 45 PM" src="https://user-images.githubusercontent.com/28213504/63230564-d2c69280-c1d3-11e9-99a3-41393a07e455.png">
+Gray Dilating Scale
+<img width="1272" alt="Screen Shot 2019-08-18 at 4 16 09 PM" src="https://user-images.githubusercontent.com/28213504/63230561-d22dfc00-c1d3-11e9-94d9-57d409513d2c.png">
+Threshold Scale 
+<img width="1265" alt="Screen Shot 2019-08-18 at 4 15 53 PM" src="https://user-images.githubusercontent.com/28213504/63230562-d22dfc00-c1d3-11e9-8626-395dbfb8342f.png">
+Color Scale
+<img width="1276" alt="Screen Shot 2019-08-18 at 4 14 50 PM" src="https://user-images.githubusercontent.com/28213504/63230563-d2c69280-c1d3-11e9-8874-5d81aecceba4.png">
 
-     
      
 ###    *************** Coming Soon ***************     
     TBA More Project comming soo but for now the 3 above are being researched. 
