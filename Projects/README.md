@@ -41,7 +41,9 @@
         - Building a webcam motion detector using OpenCV
         - Libraries used is cv2
         - This is to get more indepth knowledge on how to utilize Object Detection Software
-     
+First take using OpenCV library 
+<img width="1269" alt="Screen Shot 2019-08-18 at 3 49 44 PM" src="https://user-images.githubusercontent.com/28213504/63230290-3d75cf00-c1d0-11e9-9cc9-2636b1ed8176.png">
+
      
      
 ###    *************** Coming Soon ***************     
