@@ -52,6 +52,8 @@ Threshold Scale
 <img width="1265" alt="Screen Shot 2019-08-18 at 4 15 53 PM" src="https://user-images.githubusercontent.com/28213504/63230562-d22dfc00-c1d3-11e9-8626-395dbfb8342f.png">
 Color Scale
 <img width="1276" alt="Screen Shot 2019-08-18 at 4 14 50 PM" src="https://user-images.githubusercontent.com/28213504/63230563-d2c69280-c1d3-11e9-8874-5d81aecceba4.png">
+Color with Contours 
+<img width="1279" alt="Screen Shot 2019-08-19 at 12 15 50 PM" src="https://user-images.githubusercontent.com/28213504/63285402-3f489c80-c27b-11e9-95b4-df0918d31673.png">
 
      
 ###    *************** Coming Soon ***************     
