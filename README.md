@@ -78,6 +78,10 @@ Color Scale
 Color with Contours 
 <img width="1279" alt="Screen Shot 2019-08-19 at 12 15 50 PM" src="https://user-images.githubusercontent.com/28213504/63285402-3f489c80-c27b-11e9-95b4-df0918d31673.png">
 
+    PyGame -> WildCruise
+    - Building an AI 2D driving game. 
+    - This is to understand how graphics are rendered with pygame 
+    - Implementing an AI algo for other cars 
      
 ###    *************** Coming Soon ***************     
     TBA More Project comming soo but for now the 3 above are being researched. 
