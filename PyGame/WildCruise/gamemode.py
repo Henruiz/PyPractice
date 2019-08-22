@@ -7,7 +7,7 @@ from pygame.locals import *
 from loader import load_image
 from random import randint
 
-# global vars 
+# global vars
 PENALTY_COOL = 180
 FLAG_SCORE = 15
 CRASH_PENALTY = -2
