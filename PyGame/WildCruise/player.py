@@ -28,20 +28,45 @@ def find_spawn():
             y = randint(0, 9)
     return x * 1000 + CENTER_X, y * 1000 + CENTER_Y
 
-# Reset the car. takes in the car/player object
-def reset(self):
-    self.x =  int(pygame.display.Info().current_w /2)
-    self.y =  int(pygame.display.Info().current_h /2)
-    self.speed = 0.0 # resets speed
-    self.dir = 0 # resets direction
-    self.image, self.rect = rotate_center(self.image_orig, self.rect, self.dir)
-    self.rect.topleft = self.x, self.y
-    self.x, self.y = find_spawn()
+# define car as Player.
+class Player(pygame.sprite.Sprite):
+    def __init__(self):
+        pygame.sprite.Sprite.__init__(self)
+        self.image = load_image('car_player.png')
+        self.rect = self.image.get_rect()
+        self.image_orig = self.image
+        self.screen = pygame.display.get_surface()
+        self.area = self.screen.get_rect()
+        CENTER_X =  int(pygame.display.Info().current_w /2)
+        CENTER_Y =  int(pygame.display.Info().current_h /2)
+        self.x = CENTER_X
+        self.y = CENTER_Y
+        self.rect.topleft = self.x, self.y
+        self.x, self.y = find_spawn()
+        self.dir = 0
+        self.speed = 0.0
+        self.maxspeed = 11.5
+        self.minspeed = -1.85
+        self.acceleration = 0.095
+        self.deacceleration = 0.12
+        self.softening = 0.04
+        self.steering = 1.60
+        self.tracks = False
 
-# Emit tracks..
-def emit_tracks(self):
-    self.tracks = True
+    # Reset the car. takes in the car/player object
+    def reset(self):
+        self.x =  int(pygame.display.Info().current_w /2)
+        self.y =  int(pygame.display.Info().current_h /2)
+        self.speed = 0.0 # resets speed
+        self.dir = 0 # resets direction
+        self.image, self.rect = rotate_center(self.image_orig, self.rect, self.dir)
+        self.rect.topleft = self.x, self.y
+        self.x, self.y = find_spawn()
 
-# Don't emit tracks..
-def reset_tracks(self):
-    self.tracks = False
+    # Emit tracks..
+    def emit_tracks(self):
+        self.tracks = True
+
+    # Don't emit tracks..
+    def reset_tracks(self):
+        self.tracks = False
