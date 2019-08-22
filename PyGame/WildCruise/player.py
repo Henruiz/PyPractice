@@ -78,3 +78,13 @@ class Player(pygame.sprite.Sprite):
                 self.speed = self.speed - self.deacceleration * 2
                 self.emit_tracks()
 
+# Push back on impact
+    def impact(self):
+        if self.speed > 0:
+            self.speed = self.minspeed
+
+    def soften(self):
+            if self.speed > 0:
+                self.speed -= self.softening
+            if self.speed < 0:
+                self.speed += self.softening
