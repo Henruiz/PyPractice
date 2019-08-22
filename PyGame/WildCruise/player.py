@@ -70,3 +70,11 @@ class Player(pygame.sprite.Sprite):
     # Don't emit tracks..
     def reset_tracks(self):
         self.tracks = False
+
+    # If the car is on grass, decrease speed and emit tracks.
+    def grass(self, value):
+        if value > GRASS_GREEN:
+            if self.speed - self.deacceleration > GRASS_SPEED * 2:
+                self.speed = self.speed - self.deacceleration * 2
+                self.emit_tracks()
+
