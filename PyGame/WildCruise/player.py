@@ -13,13 +13,14 @@ CENTER_Y = -1
 
 
 # Rotate car.
-def rot_center(image, rect, angle):
+def rotate_center(image, rect, angle):
         """rotate an image while keeping its center"""
-        rot_image = pygame.transform.rotate(image, angle)
-        rot_rect = rot_image.get_rect(center=rect.center)
-        return rot_image, rot_rect
+        rotate_image = pygame.transform.rotate(image, angle)
+        rotate_rect = rotate_image.get_rect(center=rect.center)
+        return rotate_image, rotate_rect
+
 # finding spawn
-def findspawn():
+def find_spawn():
     x = randint(0, 9)
     y = randint(0, 9)
     while maps.map_1[y][x] == 5:
