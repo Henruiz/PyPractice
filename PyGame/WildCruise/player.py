@@ -88,3 +88,16 @@ class Player(pygame.sprite.Sprite):
                 self.speed -= self.softening
             if self.speed < 0:
                 self.speed += self.softening
+            
+# Accelerate the vehicle
+    def accelerate(self):
+        if self.speed < self.maxspeed:
+            self.speed = self.speed + self.acceleration
+            if self.speed < self.maxspeed / 3:
+                self.emit_tracks()
+
+# Deaccelerate.
+    def deaccelerate(self):
+        if self.speed > self.minspeed:
+            self.speed = self.speed - self.deacceleration
+            self.emit_tracks()
