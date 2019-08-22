@@ -88,7 +88,7 @@ class Player(pygame.sprite.Sprite):
                 self.speed -= self.softening
             if self.speed < 0:
                 self.speed += self.softening
-            
+
 # Accelerate the vehicle
     def accelerate(self):
         if self.speed < self.maxspeed:
@@ -101,3 +101,27 @@ class Player(pygame.sprite.Sprite):
         if self.speed > self.minspeed:
             self.speed = self.speed - self.deacceleration
             self.emit_tracks()
+
+    # Steer.
+    def steerleft(self):
+        self.dir = self.dir + self.steering
+        if self.dir > 360:
+            self.dir = 0
+        if (self.speed > self.maxspeed / 2):
+            self.emit_tracks()
+        self.image, self.rect = rotate_center(self.image_orig, self.rect, self.dir)
+
+    # Steer.
+    def steerright(self):
+        self.dir = self.dir - self.steering
+        if self.dir < 0:
+            self.dir = 360
+        if (self.speed > self.maxspeed / 2):
+            self.emit_tracks()
+        self.image, self.rect = rotate_center(self.image_orig, self.rect, self.dir)
+
+    # fix this function
+    def update(self, last_x, last_y):
+        self.x = self.x + self.speed * math.cos(math.radians(270 - self.dir))
+        self.y = self.y + self.speed * math.sin(math.radians(270 - self.dir))
+        self.reset_tracks()
