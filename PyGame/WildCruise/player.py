@@ -29,11 +29,19 @@ def find_spawn():
     return x * 1000 + CENTER_X, y * 1000 + CENTER_Y
 
 # Reset the car. takes in the car/player object
-    def reset(self):
-        self.x =  int(pygame.display.Info().current_w /2)
-        self.y =  int(pygame.display.Info().current_h /2)
-        self.speed = 0.0 # resets speed
-        self.dir = 0 # resets direction
-        self.image, self.rect = rotate_center(self.image_orig, self.rect, self.dir)
-        self.rect.topleft = self.x, self.y
-        self.x, self.y = find_spawn()
+def reset(self):
+    self.x =  int(pygame.display.Info().current_w /2)
+    self.y =  int(pygame.display.Info().current_h /2)
+    self.speed = 0.0 # resets speed
+    self.dir = 0 # resets direction
+    self.image, self.rect = rotate_center(self.image_orig, self.rect, self.dir)
+    self.rect.topleft = self.x, self.y
+    self.x, self.y = find_spawn()
+
+# Emit tracks..
+def emit_tracks(self):
+    self.tracks = True
+
+# Don't emit tracks..
+def reset_tracks(self):
+    self.tracks = False
