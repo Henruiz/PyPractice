@@ -32,6 +32,4 @@ class Tracker(pygame.sprite.Sprite):
     # Update the rotation of the arrow.
     def update(self, point_x, point_y, target_x, target_y):
         self.dir = (math.atan2(point_y - target_y, target_x - point_x) * 180 / PI)
-        self.image, self.rect = rot_center(self.image_orig, self.rect_orig, sel
-
-    
+        self.image, self.rect = rot_center(self.image_orig, self.rect_orig, self.dir)

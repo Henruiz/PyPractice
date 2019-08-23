@@ -72,7 +72,7 @@ class Traffic(pygame.sprite.Sprite):
             if tile_type == maps.crossing:
                 self.dir += randint(1, 3) * 90
 
-            # dead end rotation/controller; handles ai going out of bounce 
+            # dead end rotation/controller; handles ai going out of bounce
             if tile_type == maps.deadend:
                 self.dir -= 180
 
